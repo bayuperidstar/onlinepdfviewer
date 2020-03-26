@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "846406d33b0332a4d6304be4222eb556",
+    "revision": "9d1d101fb8b1f8bee64524e21d9847f1",
     "url": "/onlinepdfviewer/index.html"
   },
   {
-    "revision": "2b8317a7671f0c150ee0",
+    "revision": "0a0afd6f11e3e56b3f93",
     "url": "/onlinepdfviewer/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/onlinepdfviewer/static/js/2.908999dc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2b8317a7671f0c150ee0",
-    "url": "/onlinepdfviewer/static/js/main.702efdbb.chunk.js"
+    "revision": "0a0afd6f11e3e56b3f93",
+    "url": "/onlinepdfviewer/static/js/main.8b201a70.chunk.js"
   },
   {
     "revision": "d8a88ee76b9669e82cc6",
