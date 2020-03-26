@@ -1,5 +1,5 @@
 import React from "react";
-import { Document } from "react-pdf";
+// import { Document } from "react-pdf";
 import pdfjs from 'pdfjs-dist';
 import pdfjsWorker from 'pdfjs-dist/build/pdf.worker.entry';
 
@@ -13,7 +13,7 @@ export default () => {
   return (
     <div>
       <h3>{`${regex}`}</h3>
-      <Document file={regex} onLoadError={err => alert(err.message)} />
+      {/* <Document file={regex} onLoadError={err => alert(err.message)} /> */}
     </div>
   );
 }
