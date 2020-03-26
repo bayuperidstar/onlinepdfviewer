@@ -1,7 +1,7 @@
 import React from "react";
-// import { Document } from "react-pdf";
-import pdfjs from 'pdfjs-dist';
-import pdfjsWorker from 'pdfjs-dist/build/pdf.worker.entry';
+import { Document } from "react-pdf";
+import pdfjs from "pdfjs-dist";
+import pdfjsWorker from "pdfjs-dist/build/pdf.worker.entry";
 
 pdfjs.GlobalWorkerOptions.workerSrc = pdfjsWorker;
 
@@ -12,8 +12,11 @@ export default () => {
 
   return (
     <div>
-      <h3>{`${regex ? regex : 'Nothing to Show'}`}</h3>
-      {/* <Document file={regex} onLoadError={err => alert(err.message)} /> */}
+      {regex ? (
+        <Document file={regex} onLoadError={err => alert(err.message)} />
+      ) : (
+        <h3>Nothing to Show</h3>
+      )}
     </div>
   );
-}
+};
