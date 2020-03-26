@@ -1,6 +1,5 @@
 {
   "name": "onlinepdfviewer",
-  "homepage": "http://bayuperidstar.github.io/onlinepdfviewer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

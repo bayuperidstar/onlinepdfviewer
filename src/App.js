@@ -12,7 +12,7 @@ export default () => {
 
   return (
     <div>
-      <h3>{`${regex}`}</h3>
+      <h3>{`${regex ? regex : 'Nothing to Show'}`}</h3>
       {/* <Document file={regex} onLoadError={err => alert(err.message)} /> */}
     </div>
   );
