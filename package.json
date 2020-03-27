@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "prod": "rm -rf build && npm run predeploy && pm2 start server.js"
+    "prod": "rm -rf build && npm run predeploy"
   },
   "eslintConfig": {
     "extends": "react-app"
