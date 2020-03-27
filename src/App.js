@@ -15,7 +15,13 @@ export default () => {
       {regex ? (
         <Document file={regex} onLoadError={err => alert(err.message)} />
       ) : (
-        <h3>Nothing to Show</h3>
+        <div>
+          <i>Please insert url pdf at path url like example below</i>
+          <p>
+            <i>your-url/</i>
+            <b>http://www.africau.edu/images/default/sample.pdf</b>
+          </p>
+        </div>
       )}
     </div>
   );
